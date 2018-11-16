@@ -40,6 +40,7 @@ console.log (johnLennonFact(["He was the last Beatle to learn to drive",
 
 
 
+<<<<<<< HEAD
 
 
 function iLoveTheBeatles(n){
@@ -53,3 +54,24 @@ return strings;
 
 
 iLoveTheBeatles(7)
+=======
+function iLoveTheBeatles(number){
+
+  var emptyArray = [];
+  var i = -1;
+   do{
+    emptyArray.push("I love the beatles!");
+    i++;
+    } 
+    while (i < number);
+    if (number < 15){
+      return(emptyArray);
+    }
+    else {
+    return (["I love the Beatles!"]);
+  }
+   
+}
+
+iLoveTheBeatles(7);
+>>>>>>> 3a22d806f688146a5eb7d741eab5820ad69e68b7
